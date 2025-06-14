@@ -1,0 +1,49 @@
+.skeleton_card {
+    display: block;
+    border: 1px solid #ACB5BD;
+    width: 579px;
+    height: 192px;
+    left: 537px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 24px 32px 40px 24px;
+}
+
+.skeleton {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.avatar {
+    background: #DDE2E5;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-bottom: 24px;
+}
+
+.group {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 32px;  
+    margin-left: 16px;
+}
+
+.name {
+    width: 172px;
+    height: 20px;
+    margin-bottom: 8px;  
+}
+
+.date {
+    width: 257px;
+    height: 20px;
+}
+
+.text_1 {
+    width: 515px;
+    height: 20px;
+    margin-bottom: 8px;
+}
