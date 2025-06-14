@@ -1,0 +1,66 @@
+.histogram_card {
+    display: block;
+    border: 1px solid var(--grey-3);
+    width: 354px;
+    height: 185px;
+    left: 537px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 16px 24px 24px 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.histogram_title {
+    font-family: Inter, sans-serif;
+    color: var(--grey-3);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 0;
+    width: 200px;
+}
+
+.histogram_view {
+    color: #4263EB;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+
+.histogram_number {
+    color: var(--black);
+    font-size: 20px;
+    justify-content: flex-start;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+.histogram_poles {
+    justify-content: stretch;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.histogram_pole {
+    background: #374FC7;
+    margin-right: 1px;
+    flex: auto;
+}
