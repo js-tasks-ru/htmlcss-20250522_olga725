@@ -11,7 +11,7 @@
     line-height: 48px;
     color: #212429;
 }
-.footer__about__text {
+.footer__text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -19,7 +19,8 @@
     line-height: 24px;
     color: #212429;
     height: 96px;
+    margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
-    width: 640px
+    max-width: 640px
 }
